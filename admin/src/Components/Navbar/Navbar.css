@@ -1,0 +1,66 @@
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    background: white;
+  }
+  .second-things{
+    display: flex;
+    align-items: center;
+  }
+  .back-to-store-btn {
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #6757be;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+  .nav-logo {
+    width: 200px;
+  }
+  
+  .navbar-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .back-to-store-btn {
+    padding: 10px 10px;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #6757be; /* Blue color, change as needed */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .nav-profile {
+    width: 75px;
+  }
+  
+  @media (max-width: 800px) {
+    .navbar {
+      padding: 15px 30px;
+    }
+    .nav-logo {
+      width: 150px;
+    }
+    .back-to-store-btn {
+      padding: 8px 10px;
+      font-size: 10px;
+      margin-right: 10px;
+    }
+    .nav-profile {
+      width: 60px;
+    }
+  }
+  
